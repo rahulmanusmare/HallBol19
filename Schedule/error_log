@@ -1,0 +1,45 @@
+[31-Mar-2018 21:23:56 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:23:56 UTC] PHP Warning:  file_get_contents(http://students.iitgn.ac.in/hallabol/Schedule/pred_teams_JSON2.php): failed to open stream: no suitable wrapper could be found in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  file_get_contents(http://students.iitgn.ac.in/hallabol/Schedule/pred_teams_JSON2.php): failed to open stream: no suitable wrapper could be found in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 25
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:32 UTC] PHP Warning:  array_intersect(): Argument #1 is not an array in /home/students/public_html/hallabol/Schedule/AddSchedule.php on line 41
+[31-Mar-2018 21:24:38 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:38 UTC] PHP Warning:  file_get_contents(http://students.iitgn.ac.in/hallabol/Schedule/pred_teams_JSON2.php): failed to open stream: no suitable wrapper could be found in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:51 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:51 UTC] PHP Warning:  file_get_contents(http://students.iitgn.ac.in/hallabol/Schedule/pred_teams_JSON2.php): failed to open stream: no suitable wrapper could be found in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:56 UTC] PHP Warning:  file_get_contents(): http:// wrapper is disabled in the server configuration by allow_url_fopen=0 in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8
+[31-Mar-2018 21:24:56 UTC] PHP Warning:  file_get_contents(http://students.iitgn.ac.in/hallabol/Schedule/pred_teams_JSON2.php): failed to open stream: no suitable wrapper could be found in /home/students/public_html/hallabol/Schedule/dbvars.php on line 8

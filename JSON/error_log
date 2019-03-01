@@ -1,0 +1,34 @@
+[02-Jan-2017 17:17:50 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/students/public_html/hallabol/keyset.php:12
+Stack trace:
+#0 /home/students/public_html/hallabol/JSON/pred_bidded_JSON.php(4): require_once()
+#1 {main}
+  thrown in /home/students/public_html/hallabol/keyset.php on line 12
+[04-Jan-2017 10:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/students/public_html/hallabol/keyset.php:12
+Stack trace:
+#0 /home/students/public_html/hallabol/JSON/predictor_rankings_JSON.php(5): require_once()
+#1 {main}
+  thrown in /home/students/public_html/hallabol/keyset.php on line 12
+[05-Jan-2017 23:39:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/students/public_html/hallabol/keyset.php:12
+Stack trace:
+#0 /home/students/public_html/hallabol/JSON/pred_teams_JSON.php(4): require_once()
+#1 {main}
+  thrown in /home/students/public_html/hallabol/keyset.php on line 12
+[05-Jan-2017 23:39:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/students/public_html/hallabol/keyset.php:12
+Stack trace:
+#0 /home/students/public_html/hallabol/JSON/pred_bidded_JSON.php(4): require_once()
+#1 {main}
+  thrown in /home/students/public_html/hallabol/keyset.php on line 12
+[07-Jan-2017 12:04:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/students/public_html/hallabol/keyset.php:12
+Stack trace:
+#0 /home/students/public_html/hallabol/JSON/teams_JSON.php(4): require_once()
+#1 {main}
+  thrown in /home/students/public_html/hallabol/keyset.php on line 12
+[23-Mar-2018 12:22:49 UTC] PHP Fatal error:  Call to undefined function push() in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 31
+[23-Mar-2018 12:24:21 UTC] PHP Fatal error:  Call to undefined function push() in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 31
+[23-Mar-2018 12:50:56 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
+[23-Mar-2018 12:50:56 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
+[23-Mar-2018 12:51:07 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
+[23-Mar-2018 12:51:36 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
+[23-Mar-2018 12:51:47 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
+[23-Mar-2018 12:57:10 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
+[23-Mar-2018 12:57:27 UTC] PHP Warning:  json_encode(): type is unsupported, encoded as null in /home/students/public_html/hallabol/JSON/teams_JSON.php on line 23
