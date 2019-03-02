@@ -90,11 +90,20 @@ require_once('navigation.php');
     <div class="container">
 
         <!-- Marketing Icons Section -->
+
+        <!-- About the event-->
+        <div class="center" style="font-weight: bold">
+            <h4>About the event</h4>
+        </div>
+        <div style="font-size: 18px"><b>Hallabol</b> is an all-night intra-institute sports fest at IITGN. The highlight of the event is that it encourages not only students but also the staff and faculty to participate in each and
+            every game. The games are played with <b>modified rules</b>. Some of the games played are Futsal, Tug of War, Frisbee, Touch Rugby, Foot Volley, Gully Cricket, 7 Stones, 3 a side Baddy, Basky, Dodge ball and Kho-Kho. This is one of the most participated
+            event of IITGN with over 70% participation from the student community.
+        </div>
         
 <!-- Features Section -->
         <div class="row">
             <div class="col l12">
-                <h1 class="page-header center">Hallabol'18</h1>
+                <h1 class="page-header center">Hallabol'19</h1>
             </div>
 
 
@@ -105,11 +114,8 @@ require_once('navigation.php');
             <div class="col m4 s12">
                 <div style="width:100%" class="fb-like-box" data-href="https://www.facebook.com/iitgn.hallabol" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
             </div>
-        </div>
-
-        
     </div>
 <?php
-    require_once 'footer.php';
+#    require_once 'footer.php';
 ?>
 
