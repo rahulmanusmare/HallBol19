@@ -1,4 +1,4 @@
-<?php
+<?php/*
 if (!isset($_SESSION)) {
     	session_start();
 	}
@@ -8,30 +8,24 @@ if (!isset($_SESSION)) {
 	$script = $_SERVER['SCRIPT_NAME'];
 	$query = "INSERT INTO `visitors` (`visited_at`, `session_id`, `address`, `script`) 
 	VALUES (CURRENT_TIMESTAMP, '$sessionid', '$addr', '$script')";
-	run_query($query);
+	run_query($query);*/
 ?>
+		
+		<br>
+		<div class="row" style="padding:30px 10% 30px 10%;background-color:#232323;color:#eee;margin-bottom:-10px !important;">
+			<div class="col-md-6"  style="float:left;margin-top:10px;">
 
-	<div hidden="true" class="container">
-    	<footer class="row">
-				<div class="col-md-6 col-md-offset-3 copyright text-center">
-					&copy Hallabol 2015. All Rights Reserved. <br>
+				&copy Hallabol 2019	| All Rights Reserved
+			</div>
+			<div class="col-md-6" style="float:right;text-align:right;">
 					Site Designed and Developed by <a href="http://plus.google.com/+DhruvPancholi" target="new">Dhruv Pancholi</a><br>
-					Maintained by <a href="http://ashimrajkonwar.me/" target="new">Ashim Raj Konwar</a>
-					
-				</div>
-				<div class="col-md-offset-1 col-md-2">
-					<strong>Site Hits:
-					<?php
-						$result = run_query('SELECT COUNT(*) FROM visitors');
-						$result = run_query('SELECT COUNT(*) FROM visitors');
-						$row = mysql_fetch_row($result);
-						echo $row[0];
-					?>
-					</strong>
-				</div>
-        </footer>
-        
-    </div>       
+					Maintained by <a href="http://ashimrajkonwar.me/" target="new">Ashim Raj Konwar</a> |
+					Rahul Manusware |
+					<a href="http://github.com/nishikantparmariam" target="new">Nishikant Parmar</a> |
+					Viraj Shah
+			</div>
+		</div>
+		
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

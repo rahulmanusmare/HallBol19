@@ -115,7 +115,8 @@ require_once('navigation.php');
                 <div style="width:100%" class="fb-like-box" data-href="https://www.facebook.com/iitgn.hallabol" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
             </div>
     </div>
+    </div>
 <?php
-#    require_once 'footer.php';
+    require_once 'footer.php';
 ?>
 
