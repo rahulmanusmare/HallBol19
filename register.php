@@ -71,6 +71,7 @@ require_once('navigation.php');
         </div>
     </div>
 </div>
+</div>
 <script>
   angular.module("teams", [])
   .controller("teamsController", function($scope, $http) {

@@ -168,6 +168,7 @@
        
         <hr>
     </div>
+    </div>
     <!-- /.container -->
 <?php
 require_once('footer.php');
