@@ -27,123 +27,180 @@ require_once('navigation.php');
 
         <!-- Projects Row -->
         <div class="row games">
-            <div class="col m4 img-portfolio">
-                <a href="games/3-a-side baddy.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/badminton.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/3-a-side baddy.pdf" target="_blank">3 a Side Baddy</a>
-                </h3>
-                <p>Team of 3 players</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/badminton.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">3 a Side Baddy<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/3-a-side baddy.pdf" target="_blank">Game Rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">3 a Side Baddy<i class="material-icons right">close</i></span>
+                    <p>3 side baddy info...Team of 3 players</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/7 Stones.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/7_stones.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/7 Stones.pdf" target="_blank">7 Stones</a>
-                </h3>
-                <p>Team of 9 players</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./img/7_stones.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">7 Stones<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/7 Stones.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">7 Stones<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Foot-volley.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/footvolley.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Foot-volley.pdf" target="_blank">Foot Volley</a>
-                </h3>
-                <p>Team of 7 players</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./img/footvolley.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Foot Volley<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Foot-volley.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Foot Volley<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Futsal.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/futsal.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Futsal.pdf" target="_blank">Futsal</a>
-                </h3>
-                <p>Team of 7 players</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="./img/futsal.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Futsal<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Futsal.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Futsal<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Ultimate Frisbee.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/ultimate_frisbee.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Ultimate Frisbee.pdf" target="_blank">Ultimate Frisbee</a>
-                </h3>
-                <p>Team of 11 players(Boys) and 7 players(Girls)</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/ultimate_frisbee.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Frisbee<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Ultimate Frisbee.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Frisbee<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Gully Cricket.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/gully_cricket.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Gully Cricket.pdf" target="_blank">Gully Cricket</a>
-                </h3>
-                <p>Team of 9 players(Boys) & 6 players(Girls)</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/gully_cricket.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Gully Cricket<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Gully Cricket.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Gully Cricket<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Hand Ball.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/handball.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Hand Ball.pdf" target="_blank">Handball</a>
-                </h3>
-                <p>Team of 9 players(Boys) & 7 players(Girls)</p>
+
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/handball.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Hand Ball<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Hand Ball.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Hand Ball<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Kho-kho.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/kho_kho.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Kho-kho.pdf" target="_blank">Kho Kho</a>
-                </h3>
-                <p>Team of 10 players</p>
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/kho_kho.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Kho-kho<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Kho-kho.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Kho-kho<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Throwball.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/throwball.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Throwball.pdf" target="_blank">Throwball (Girls)</a>
-                </h3>
-                <p>Team of 7 players</p>
+
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/throwball.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Throwball<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Throwball.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Throwball<i class="material-icons right">close</i></span>
+                    <p>More info on</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Tug-of-war.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/tug_of_war.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Tug-of-war.pdf" target="_blank">Tug Of War</a>
-                </h3>
-                <p>The way you want!</p>
+
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/tug_of_war.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Tug-of-war<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Tug-of-war.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Tug-of-war<i class="material-icons right">close</i></span>
+                    <p>The way you want!</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Carrom Wars.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/carrom.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Carrom Wars.pdf" target="_blank">Carrom Wars</a>
-                </h3>
-                <p>Team of 2 players</p>
+
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/carrom.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Carrom Wars<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Carrom Wars.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Carrom Wars<i class="material-icons right">close</i></span>
+                    <p>More info to be added</p>
+                </div>
             </div>
-            <div class="col m4 img-portfolio">
-                <a href="games/Dodgeball.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/dodgeball.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Dodgeball.pdf" target="_blank">Dodgeball</a>
-                </h3>
-                <p>Team of 8 players</p>
+
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/dodgeball.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Dodgeball<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Dodgeball.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Dodgeball<i class="material-icons right">close</i></span>
+                    <p>More info to be added</p>
+                </div>
             </div>
-            
-            <div class="col m4 img-portfolio">
-                <a href="games/Street Hockey.pdf" target="_blank">
-                    <img class="img-responsive img-hover" src="./img/hockey.jpg" alt="">
-                </a>
-                <h3>
-                    <a href="games/Street Hockey.pdf" target="_blank">Street Hockey</a>
-                </h3>
-                <p>Team of 7 players</p>
+
+            <div class="col m4 card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator"  src="./img/hockey.jpg" alt="">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator grey-text text-darken-4">Street Hockey<i class="material-icons right">more_vert</i></span>
+                    <p><a href="games/Street Hockey.pdf" target="_blank">Game rules</a></p>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Street Hockey<i class="material-icons right">close</i></span>
+                    <p>More info to be added</p>
+                </div>
             </div>
         </div>
         <!-- /.row -->
