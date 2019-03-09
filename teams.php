@@ -141,6 +141,13 @@ function show_all_teams() {
 }
 
 </script>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 <?php
 require_once('footer.php');
 ?>

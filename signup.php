@@ -300,5 +300,8 @@ i.iconis {
       		$('.parallax').parallax();
     	});
 </script>
+<?php
+require_once('footer.php');
+?>
 </body>
 </html>
