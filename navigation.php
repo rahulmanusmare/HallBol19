@@ -41,6 +41,7 @@ if(isset($_SESSION['email'])){
     <script src= "./js/jquery-1.11.2.min.js"></script>
     <script src= "./js/typeahead.min.js"></script>
   <script src="vendor/materialize/dist/js/materialize.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 
     <!-- <script src= "./js/bootstrap.min.js"></script> -->
 
@@ -59,7 +60,7 @@ if(isset($_SESSION['email'])){
     <!-- Navigation -->
     <div class="navbar-fixed">
 	    <nav>
-		    <div class="nav-wrapper">
+		    <div class="nav-wrapper amber lighten-1">
 		      <a href="index.php" class="brand-logo">Hallabol'19</a>
 		      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 		      <ul id="nav-mobile" class="nav-list-left left hide-on-med-and-down">

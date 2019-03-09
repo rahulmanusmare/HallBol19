@@ -149,7 +149,7 @@
             
             
             
-           
+<!--           
             <div class="col l4 offset-l4 m6 offset-m3 s12 center image-holder">
                 
                 <img class="img-circle img-responsive circle" src="img/aboutus/ashim.jpg" alt="">
@@ -158,9 +158,15 @@
                 </h3>
                 <div>Info: <a href="http://ashimrajkonwar.me/" target="_blank">http://ashimrajkonwar.me/</a></div>
             </div>
-            
-         
-            
+-->
+            <div class="col l4 offset-l4 m6 offset-m3 s12 center image-holder">
+                
+                <img class="img-circle img-responsive circle" src="img/aboutus/rahul.jpg" alt="">
+                <h3>Rahul Manusmare
+                    <br> <small>Web Developer</small>
+                </h3>
+                <div>Info: <a href="https://rahulmanusmare.github.io" target="_blank">https://rahulmanusmare.github.io</a></div>
+            </div>  
             
         </div>
         <br>

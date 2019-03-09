@@ -205,7 +205,7 @@ require_once('navigation.php');
         </div>
         <!-- /.row -->
         <hr>
-
+</div>
 <?php
 require_once('footer.php');
 ?>
