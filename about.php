@@ -19,34 +19,25 @@
         <div class="row">
             
             <div class="col-lg-12">
-                <h1 class="page-header">About us
-                    <small></small>
-                </h1>
-                <nav class="custom-breadcums">
-                    <div class="nav-wrapper">
-                      <div class="col s12">
-                        <a href="index.php" class="breadcrumb">Home</a>
-                        <a href="#!" class="breadcrumb">About</a>
-                      </div>
-                    </div>
-                </nav>
-                
-            
-                <p>Annual intra college sports festival of <strong>IIT Gandhinagar</strong>:</p>
+                <div class= "card-panel z-depth-3 center">
+                About
+                </div>
+
                 <div style="font-size: 18px"><b>Hallabol</b> is an all-night intra-institute sports fest at IITGN. The highlight of the event is that it encourages not only students but also the staff and faculty to participate in each and
                     every game. The games are played with <b>modified rules</b>. Some of the games played are Futsal, Tug of War, Frisbee, Touch Rugby, Foot Volley, Gully Cricket, 7 Stones, 3 a side Baddy, Basky, Dodge ball and Kho-Kho. This is one of the most participated
                     event of IITGN with over 70% participation from the student community.
                 </div>
-                <p><strong>Quick statistics of last year’s Halla Bol</strong></p>
-                
-                <ul class="collection">
-                    <li class="collection-item">Total Participation: 3000+</li>
-                    <li class="collection-item">Total number of Games: 13</li>
-                    <li class="collection-item">Total matches played: 400+</li>
-                    <li class="collection-item">Total minutes played: 9,600 min (160 hr) </li>
-                    <li class="collection-item">Total teams: 450+</li>
-                    <li class="collection-item">Average number of games played by a participating student: 6-7 games</li>
-                </ul>
+                <p><b>Quick statistics of last year’s Halla Bol</b></p>
+                <div class= "container">
+                    <ul class="collection">
+                        <li class="collection-item">Total Participation: 3000+</li>
+                        <li class="collection-item">Total number of Games: 13</li>
+                        <li class="collection-item">Total matches played: 400+</li>
+                        <li class="collection-item">Total minutes played: 9,600 min (160 hr) </li>
+                        <li class="collection-item">Total teams: 450+</li>
+                        <li class="collection-item">Average number of games played by a participating student: 6-7 games</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <!-- /.row -->
