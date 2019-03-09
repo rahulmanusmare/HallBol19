@@ -19,8 +19,8 @@ if (!isset($_SESSION)) {
 			</div>
 			<div class="col-md-6" style="float:right;text-align:right;">
 					Site Designed and Developed by <a href="http://plus.google.com/+DhruvPancholi" target="new">Dhruv Pancholi</a><br>
-					Maintained by <a href="http://ashimrajkonwar.me/" target="new">Ashim Raj Konwar</a> |
-					Rahul Manusware |
+					Maintained by
+					<a href="http://rahulmanusmare.github.io">Rahul Manusmare </a> |
 					<a href="http://github.com/nishikantparmariam" target="new">Nishikant Parmar</a> |
 					Viraj Shah
 			</div>

@@ -61,7 +61,7 @@ if(isset($_SESSION['email'])){
     <div class="navbar-fixed">
 	    <nav>
 		    <div class="nav-wrapper amber lighten-1">
-		      <a href="index.php" class="brand-logo">Hallabol'19</a>
+		      <a href="index.php" class="brand-logo"><img src = "img/hero.png" style ="height :50px; wigth : 50px"></a>
 		      <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
 		      <ul id="nav-mobile" class="nav-list-left left hide-on-med-and-down">
 		        <li><a href="about.php">About</a></li>
