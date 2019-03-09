@@ -33,9 +33,12 @@
                 
             
                 <p>Annual intra college sports festival of <strong>IIT Gandhinagar</strong>:</p>
-                <p>Halla Bol is a night fun sports event aimed to facilitate overall interaction level among students, staff and faculty of IITGn. This years Halla Bol is a 10 night sports event to be played from 22nd March to 1st April.
-                </p>
+                <div style="font-size: 18px"><b>Hallabol</b> is an all-night intra-institute sports fest at IITGN. The highlight of the event is that it encourages not only students but also the staff and faculty to participate in each and
+                    every game. The games are played with <b>modified rules</b>. Some of the games played are Futsal, Tug of War, Frisbee, Touch Rugby, Foot Volley, Gully Cricket, 7 Stones, 3 a side Baddy, Basky, Dodge ball and Kho-Kho. This is one of the most participated
+                    event of IITGN with over 70% participation from the student community.
+                </div>
                 <p><strong>Quick statistics of last year’s Halla Bol</strong></p>
+                
                 <ul class="collection">
                     <li class="collection-item">Total Participation: 3000+</li>
                     <li class="collection-item">Total number of Games: 13</li>
