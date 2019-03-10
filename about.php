@@ -19,9 +19,9 @@
         <div class="row">
             
             <div class="col-lg-12">
-                <div class= "card-panel z-depth-3 center">
-                About
-                </div>
+            <h1 class="page-header">Registered Teams
+                <small></small>
+            </h1>
 
                 <div style="font-size: 18px"><b>Hallabol</b> is an all-night intra-institute sports fest at IITGN. The highlight of the event is that it encourages not only students but also the staff and faculty to participate in each and
                     every game. The games are played with <b>modified rules</b>. Some of the games played are Futsal, Tug of War, Frisbee, Touch Rugby, Foot Volley, Gully Cricket, 7 Stones, 3 a side Baddy, Basky, Dodge ball and Kho-Kho. This is one of the most participated
