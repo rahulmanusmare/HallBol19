@@ -66,7 +66,7 @@ require_once('navigation.php');
                           <option data-team="7" data-link="foot_volley" value="4">Foot-Volley</option>
                           <option data-team="7" data-link="futsal" value="5">Futsal</option>
                           <option data-team="9" data-link="gully_cricket" value="6">Gully Cricket(Boys)</option>
-                          <option data-team="6" data-link="gully_cricket" value="7">Gully Cricket(Girls)</option>
+-                          <option data-team="6" data-link="gully_cricket" value="7">Gully Cricket(Girls)</option>
                           <option data-team="9" data-link="handball" value="8">Handball(Boys)</option>
                           <option data-team="10" data-link="kho_kho" value="9">Kho-Kho</option>
                           <option data-team="7" data-link="throwball" value="10">Throwball(Girls)</option>

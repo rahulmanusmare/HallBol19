@@ -9,14 +9,14 @@ require_once('navigation.php');
 <div  ng-app="teams" ng-controller="teamsController" ng-init="game_map={1:'3 a Side Baddy', 2:'7 Stones', 3:'Dodgeball', 4:'Foot Volley', 5:'Futsal', 6:'Gully Cricket(Boys)', 7:'Gully Cricket(Girls)', 8:'Handball', 9:'Kho-Kho', 10:'Throwball(Girls)', 11:'Tug Of War', 12:'Ultimate Frisbee(Boys)', 13:'Ultimate Frisbee (Girls)', 14:'Carrom Wars', 15: 'Handball (Girls)', 16: 'Street Hockey'}">
     <div class="container">
     <!-- Page Heading/Breadcrumbs -->
-        
+
         <div class="row">
             <div class="col-lg-12">
             <!--
                 <h1 class="page-header">Registrations are Closed!
                     <small></small>
                 </h1>
-                
+
             -->
                 <br>
                 <nav class="custom-breadcums">
@@ -28,14 +28,14 @@ require_once('navigation.php');
                     </div>
                 </nav>
                 <br>
-                <h3 class='center red-text'>Oops! Register is over. Contact to admin for issues.</h3>
+                <h3 class='center red-text'>Registration Coming Soon !!!</h3>
             </div>
         </div>
         <!-- /.row -->
 
-  
-    </div>
 
+    </div>
+    
     <div class="container">
         <div class="row card" style="padding: 5px 24px;">
             <div class="col l12">
@@ -59,14 +59,14 @@ require_once('navigation.php');
                           <div class="col m2">{{ team.team_name }}</div>
                           <div class="col m6">
                               <div ng-repeat="member in team.team_members.split(',')" class="chip">{{member}}</div>
-                            
+
                           </div>
                       </div>
                   </li>
 
-               
+
                 </ul>
-                    
+
             </div>
         </div>
     </div>
@@ -149,7 +149,7 @@ attachSubmit();
     playerData = data;
     $('.tms').empty();
     console.log(data);
-    
+
     $('.tms').append('<option value="select">Select</option>');
     for(p in data){
     console.log(p);
@@ -177,7 +177,7 @@ attachSubmit();
     assignOnChangeListener();
     assignSelectorValues();
   });
-  
+
 function attachSubmit(){
 console.log('Attach');
 
@@ -192,13 +192,13 @@ console.log('Attach');
 
 function checkIfArrayIsUnique(myArray) {
 
-        for (var i = 0; i < myArray.length; i++) 
+        for (var i = 0; i < myArray.length; i++)
         {
-            for (var j = 0; j < myArray.length; j++) 
+            for (var j = 0; j < myArray.length; j++)
             {
-                if (i != j) 
+                if (i != j)
                 {
-                    if (myArray[i] == myArray[j]) 
+                    if (myArray[i] == myArray[j])
                     {
                       console.log(myArray[i] );
                       console.log(myArray[j] );
@@ -209,7 +209,7 @@ function checkIfArrayIsUnique(myArray) {
         }
         return false; // means there are no duplicate values.
 }
-    
+
 
 
 
@@ -247,7 +247,7 @@ function checkIfArrayIsUnique(myArray) {
     var data = new Object;
     data.game = game;
     data.team_name = team_name;
-    
+
     data.rolls = "";
 
     data.rolls = $(".tms").map(function() {
@@ -261,27 +261,27 @@ function checkIfArrayIsUnique(myArray) {
     data.team_members=$(".tms").map(function() {
     if(this.value!='' && this.value!='select' ) return playerData[this.value]['name']+" ("+this.value+")";
     }).get().join();
-    
+
     data.team_members+=$(".tmi").map(function() {return this.value;}).get().join(",").replace(/,+/g,",").replace(/,+$/,"");
     console.log(data.team_members);
-    
-    
-    
-    
-    
+
+
+
+
+
     console.log(teamMemList );
-    
+
     var teamMemList = data.team_members.split(",");
     if(checkIfArrayIsUnique(teamMemList)){
       alert("Duplicate entry of the same member is not possible. Are you out of your mind?");
       return;
     }
-    
-        
-    
-    
-    
-    
+
+
+
+
+
+
 
     // Send the data using post
     var posting = $.post( './register_back.php', $.param(data) );
@@ -299,8 +299,8 @@ function checkIfArrayIsUnique(myArray) {
       $('#error_message').removeClass('hidden');
     });
   });
-}  
-  
+}
+
 
 });
 
@@ -320,6 +320,11 @@ function checkIfArrayIsUnique(myArray) {
         display:none;
     }
 </style>
+<br>
+<br>
+<br>
+<br>
+<br>
 <?php
 require_once('footer.php');
 ?>

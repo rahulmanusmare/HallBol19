@@ -8,31 +8,31 @@ if(isset($_GET['email'])
   $email = $_GET['email'];
   $rollno= $_GET['rollno'];
   $fullname= $_GET['fullname'];
-  
+
   $hashcode = md5("hallabol18".$email."saltedItem");
   if($_GET['code']==$hashcode){
 
     $query = "UPDATE  `user` SET  `confirm` =  '$hashcode' WHERE  `email` =  '$email'";
     $result = mysql_query($query);
-    
-    
-    
+
+
+
     // $resultx = run_query("INSERT INTO `registrations` (`roll_no`, `name`) VALUES ('$rollno', '$fullname')");
     // Override
     $resultNewRegistration = "SELECT * FROM registrations WHERE roll_no='". $rollno. "'";
     $resultNewRegistrationQuery = mysql_fetch_array(mysql_query($resultNewRegistration));
-        
-        
-        
+
+
+
     if($resultNewRegistrationQuery == false){
     	 $resultx = run_query("INSERT INTO `registrations` (`roll_no`, `name`) VALUES ('$rollno', '$fullname')");
     }
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
     if(!$result){
       if($debug) die("Database access failed: ".mysql_error());
       else die();
@@ -62,13 +62,13 @@ require_once('navigation.php');
 					  <div class="row login">
 					  	<h4>Email Confirmation</h4>
 					  	<h6>Please Check your mail for confirmation code.</h6>
-			  	
+
 <?php  if ($error) { ?>
 					  	<h6 class="red-text">Invalid Email or confirmation code!</h6>
-<?php } ?>					  	
-				  	
+<?php } ?>
+
 					    <form class="col s12" role="form" method="get" action="./confirm.php">
-					        
+
 					      <div class="row" style="margin-bottom:0px;">
 					         <div class="input-field col m12 s12">
 					          <i class="material-icons iconis prefix">account_box</i>
@@ -76,7 +76,7 @@ require_once('navigation.php');
 					          <label for="email">Email</label>
 					        </div>
 					      </div>
-					      
+
 					      <div class="row" style="margin-bottom:0px;">
 					         <div class="input-field col m12 s12">
 					          <i class="material-icons iconis prefix">vpn_key</i>
@@ -84,20 +84,20 @@ require_once('navigation.php');
 					          <label for="code">Confirmation Code</label>
 					        </div>
 					      </div>
-					      
-					
-					      
-					      
-     
-					      
-                        
+
+
+
+
+
+
+
 					      <div class="row">
 					      	<button class="btn waves-effect waves-light" type="submit" name="action">Confirm</button>
 					      </div>
 					      <div class="row">
                               <div class="col m12 s12">
                                   <div style="padding-top:7px; font-size:14px;" >
-                                      Already have an account? 
+                                      Already have an account?
                                       <a href="./login.php">
                                           Login Here
                                       </a>
@@ -115,17 +115,17 @@ require_once('navigation.php');
 
 <div hidden="true" class="container" ng-app="insertEvents" ng-controller="insertEventsController">
   <div class="row">
-    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-3">                    
+    <div id="loginbox" style="margin-top:50px;" class="mainbox col-md-6 col-md-offset-3 col-sm-7 col-sm-offset-3">
       <div class="panel panel-info" >
 
         <div class="panel-heading">
           <div class="panel-title">Email Confirmation</div>
           <div style="float:right; font-size: 80%; position: relative; top:-10px"><a href="#">Forgot password?</a></div>
         </div>
-        
+
         <div style="padding-top:30px" class="panel-body" >
         <div class="alert alert-success alert-dismissable" id="error_message">
-         <button type="button" class="close" data-dismiss="alert" 
+         <button type="button" class="close" data-dismiss="alert"
             aria-hidden="true">
             &times;
          </button>
@@ -135,8 +135,8 @@ require_once('navigation.php');
           if ($error) {
             echo '<div style="color:red;" id="login-alert" class="alert alert-danger col-sm-12" >
                 <p>Invalid Email or confirmation code!</p>
-            </div>';                     
-          } 
+            </div>';
+          }
         ?>
 
         <form class="form-inline" method="get" action="./confirm.php">
@@ -149,7 +149,7 @@ require_once('navigation.php');
     </div>
     </div>
     </div>
-    
+
     <style>
     /* LOGIN */
 .logueo {/* PARALLAX */
