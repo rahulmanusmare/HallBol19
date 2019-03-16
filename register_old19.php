@@ -27,111 +27,15 @@ require_once('navigation.php');
                       </div>
                     </div>
                 </nav>
-
-                <p>Please refer to the constraints of registration before registering.</p>
+                <br>
+                <h3 class='center red-text'>Registration Coming Soon !!!</h3>
             </div>
         </div>
         <!-- /.row -->
 
-        <div class="row card" style="padding: 5px 24px;">
-            <form class="form-horizontal" id="registration_form" name="registration_form" novalidate>
 
-                    <!-- Form Name -->
-                    <h4 style="font-size:26px;">Team Registration Form</h4>
-                    <div class="alert alert-success alert-dismissable hidden red-text" id="success_message">
-                       Team Successfully registered. Please refresh the page!.
-                    </div>
-                    <div class="alert alert-danger alert-dismissable" id="">
-                       <ol>
-                       <li><span>For players registered as "Other", please enter the <b>full name</b> consistent with the other registrations of that player. This data is used while scheduling the matches, failure to enter full name might result in that player having two of his/her matches scheduled simultaneously.</span></li>
-                       <li><span id="">Those who are found registering illegal teams, will be disqualified from Hallabol!</span>
-                       </li>
-                       </ol>
-                    </div>
-                    <div class="alert alert-danger alert-dismissable hidden red-text" id="error_message">
-
-                       <span id="error_msg">Unable to register, please check your input values.</span>
-                    </div>
-
-                    <br>
-
-                    <!-- Select Basic -->
-                    <div class="row">
-                      <h6 class="col m4 right-align" style="font-size: 18px;line-height: 28px;">Select Game</h6>
-                      <div class="col m6">
-                        <select class="form-control browser-default" name="select_game" id="select_game">
-                          <option data-team="3" data-link="3_a_side_baddy" value="1">3 A Side Baddy</option>
-                          <option data-team="9" data-link="7_stones" value="2">7 Stones</option>
-                          <option data-team="8" data-link="dodgeball" value="3">Dodgeball</option>
-                          <option data-team="7" data-link="foot_volley" value="4">Foot-Volley</option>
-                          <option data-team="7" data-link="futsal" value="5">Futsal</option>
-                          <option data-team="9" data-link="gully_cricket" value="6">Gully Cricket(Boys)</option>
-                          <option data-team="6" data-link="gully_cricket" value="7">Gully Cricket(Girls)</option>
-                          <option data-team="9" data-link="handball" value="8">Handball(Boys)</option>
-                          <option data-team="10" data-link="kho_kho" value="9">Kho-Kho</option>
-                          <option data-team="7" data-link="throwball" value="10">Throwball(Girls)</option>
-                          <!--<option data-team="5" data-link="no_dribble_basky" value="10">No Dribble Basky(Girls)</option>-->
-                          <option data-team="15" data-link="tug_of_war" value="11">Tug Of War</option>
-                          <option data-team="11" data-link="ultimate_frisbee" value="12">Ultimate Frisbee(Boys)</option>
-                          <option data-team="7" data-link="ultimate_frisbee" value="13">Ultimate Frisbee(Girls)</option>
-                          <option data-team="2" data-link="carrom" value="14">Carrom Wars</option>
-                          <option data-team="7" data-link="handball" value="15">Handball(Girls)</option>
-                          <option data-team="7" data-link="street_hockey" value="16">Street Hockey</option>
-                        </select>
-                      </div>
-                    </div>
-
-                    <div class="form_inputs">
-                        <!-- Text input-->
-                        <div class="alert alert-warning" role="alert" hidden>
-                          <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-                          <span class="sr-only">Error:</span>
-                          Please write Full Name and Roll No for valid registrations, any error in roll no will
-                        </div>
-                        <div class="row">
-                          <h6 class="col m4 right-align" style="font-size: 18px;line-height: 28px;">Team Name</h6>
-                          <div class="col m6">
-                          <input id="team_name" name="team_name" style="text-transform:capitalize" type="text" placeholder="Name of your awesome team" class="form-control input-md" required="">
-                          <span class="help-block">Maximum characters:50</span>
-                          </div>
-                        </div>
-
-                        <div id="team_members">
-                            <!-- Text input-->
-                            <div class="row" id="team_member_1">
-                                <h6 class="col m2 right-align offset-m2" style="font-size: 16px;line-height: 28px;">Captain</h6>
-
-                                <div class="col m2">
-                                    <select class="browser-default smt" name="smt_1" id="smt_1" member="1">
-                                        <option value="1">Student</option>
-                                        <option value="2">Other</option>
-                                    </select>
-                                </div>
-                                <div class="col m4">
-                                    <select id="tms_1" name="tms_1" class="browser-default  input-md tms">
-                                      <option value="select">Select</option>
-                                    </select>
-                                </div>
-                                <div class="col m4">
-                                    <input id="tmi_1" name="tmi_1" type="text" placeholder="Name" style="text-transform:capitalize" class="form-control input-md tmi" required="">
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <!-- Button -->
-                        <div class="form-group">
-                            <label class="col m4 control-label" for="submit"></label>
-                            <div class="col m4 offset-m2 right-align">
-                                <button type="button" id="MyFormsubmit" name="submit" class="btn btn-primary">Register</button>
-                            </div>
-                        </div>
-                    </div><!-- ./Form inputs -->
-
-            </form>
-        </div>
     </div>
-
+    
     <div class="container">
         <div class="row card" style="padding: 5px 24px;">
             <div class="col l12">
@@ -166,6 +70,7 @@ require_once('navigation.php');
             </div>
         </div>
     </div>
+</div>
 </div>
 <script>
   angular.module("teams", [])
@@ -415,6 +320,11 @@ function checkIfArrayIsUnique(myArray) {
         display:none;
     }
 </style>
+<br>
+<br>
+<br>
+<br>
+<br>
 <?php
 require_once('footer.php');
 ?>

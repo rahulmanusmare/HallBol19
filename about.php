@@ -28,7 +28,7 @@
                 <p><b>Quick statistics of last year’s Halla Bol</b></p>
                 <div class= "container">
                     <ul class="collection">
-                        <li class="collection-item">Total Number of Teams = 585
+                        <li class="collection-item">Total Number of Teams = <b>585</b>
                         <li class="collection-item">Total Participation =<b> 3647 (No of Players x Size of Teams)</b></li>
                         <li class="collection-item">Total Number of Different Players = <b>725</b></li>
                         <li class="collection-item">Average Game Played by each Participant = <b>4.6</b></li>
@@ -51,7 +51,7 @@
                     <small>Core Team</small>
                 </h3>
                 <div>Email id: <a href="mailto:vvs.akhil@iitgn.ac.in" target="_blank">vvs.akhil@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-7433064254" value="+91-7433064254" target="_blank">+91-7433064254/a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-7433064254" value="+91-7433064254" target="_blank">+91-7433064254</a></div>
             </div>
             
             <div class="col l4 m6 s12 center image-holder">
@@ -66,7 +66,7 @@
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive circle" src="img/aboutus/kartik_new.jpg" alt="">
                 <h3>Piyush Chandra
-                    <br> <small>Convener</small>
+                    <br> <small>Core Team</small>
                 </h3>
                 <div>Email id: <a href="mailto:piyush.chandra@iitgn.ac.in" target="_blank">piyush.chandra@iitgn.ac.in</a></div>
                 <div>Contact no:&nbsp;<a href="tel:%2B91-9727735505" value="+91-9727735505" target="_blank">+91-9727735505</a></div>
@@ -91,7 +91,7 @@
             </div>
 
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/Balaji.jpg" alt="">
+                <img class="img-circle img-responsive circle" src="img/aboutus/yp.JPG" alt="">
                 <h3>Yash Patel
                     <br> <small>Core Team</small>
                 </h3>
