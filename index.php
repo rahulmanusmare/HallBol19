@@ -95,9 +95,7 @@ require_once('navigation.php');
         <div class="center" style="font-weight: bold">
             <h4>About the event</h4>
         </div>
-        <div style="font-size: 18px"><b>Hallabol</b> is an all-night intra-institute sports fest at IITGN. The highlight of the event is that it encourages not only students but also the staff and faculty to participate in each and
-            every game. The games are played with <b>modified rules</b>. Some of the games played are Futsal, Tug of War, Frisbee, Touch Rugby, Foot Volley, Gully Cricket, 7 Stones, 3 a side Baddy, Basky, Dodge ball and Kho-Kho. This is one of the most participated
-            event of IITGN with over 70% participation from the student community.
+        <div style="font-size: 18px"><b>Hallabol</b> is the time of the year when almost the entire student body comes out of their comfort zone to play. 13 games conducted in 10 nights means, a student not even interested in sports also finds some game which he/she can enjoy playing with friends. Not only do we witness high intensity matches, teams competing against each other with passion and the fighting spirit. But this is the time when we can see bonds being created, nurtured and flourished. The team formation rules are meant to increase inter batch interaction. To put it in simple words, the nights of Halla Bol are the most memorable ones in the campus.
         </div>
         
 <!-- Features Section -->
