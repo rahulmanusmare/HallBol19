@@ -45,54 +45,53 @@
                 <h1 class="page-header">Our Team</h1>
             </div>
             
-            
-            
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive img-center circle" src="img/aboutus/bhupendra.jpg" alt="">
-                <h3>Bhupendra Kumar<br>
-                    <small>Sports Secretary</small>
+                <img class="img-circle img-responsive img-center circle" src="img/aboutus/akhil.jpg" alt="">
+                <h3>V V S Akhil<br>
+                    <small>Core Team</small>
                 </h3>
-                <div>Email id: <a href="mailto:bhupendra.kumar@iitgn.ac.in" target="_blank">bhupendra.kumar@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9723655499" value="+919723655499" target="_blank">+91-9723655499</a></div>
+                <div>Email id: <a href="mailto:vvs.akhil@iitgn.ac.in" target="_blank">vvs.akhil@iitgn.ac.in</a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-7433064254" value="+91-7433064254" target="_blank">+91-7433064254/a></div>
             </div>
             
             
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive img-center circle" src="img/aboutus/naji.jpg" alt="">
-                <h3>Ahamed Naji<br>
-                    <small>Convener</small>
+                <h3>Utkarsh Balodi <br>
+                    <small>Core Team</small>
                 </h3>
-                <div>Email id: <a href="mailto:ahamed.naji@iitgn.ac.in" target="_blank">ahamed.naji@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9998426992" value="+9199984269922" target="_blank">+91-9998426992</a></div>
+                <div>Email id: <a href="mailto:utkarsh.balodi@iitgn.ac.in" target="_blank">utkarsh.balodi@iitgn.ac.in</a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-7506457683" value="+91-7506457683" target="_blank">+91-7506457683</a></div>
             </div>
-            
             
             
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive circle" src="img/aboutus/kartik_new.jpg" alt="">
-                <h3>Karthik Mandlekar
+                <h3>Piyush Chandra
                     <br> <small>Convener</small>
                 </h3>
-                <div>Email id: <a href="mailto:kartik.mandlekar@iitgn.ac.in" target="_blank">kartik.mandlekar@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9979897463" value="+919979897463" target="_blank">+91-9979897463</a></div>
+                <div>Email id: <a href="mailto:piyush.chandra@iitgn.ac.in" target="_blank">piyush.chandra@iitgn.ac.in</a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-9727735505" value="+91-9727735505" target="_blank">+91-9727735505</a></div>
             </div>
+
             
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive circle" src="img/aboutus/nishant.jpg" alt="">
-                <h3>Nishant Patel
+                <h3>Avinash Joy Bara
                     <br> <small>Core Team</small>
                 </h3>
-                <div>Email id: <a href="mailto:nishant.patel@iitgn.ac.in" target="_blank">nishant.patel@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9833981296" value="+919833981296" target="_blank">+91-9833981296</a></div>
+                <div>Email id: <a href="mailto:avinash.bara@iitgn.ac.in" target="_blank">avinash.bara@iitgn.ac.in</a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-7543927154" value="+91-7543927154" target="_blank">+91-7543927154</a></div>
             </div>
-            
+        
+
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive circle" src="img/aboutus/vidhi.jpg" alt="">
-                <h3>Vidhi Solanki 
+                <h3>Sukkala Balaji
                     <br> <small>Core Team</small>
                 </h3>
-                <div>Email id: <a href="mailto:solanki.vidhi@iitgn.ac.in" target="_blank">solanki.vidhi@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9619975411" value="+919619975411" target="_blank">+91-9619975411</a></div>
+                <div>Email id: <a href="mailto:sukkala.balaji@iitgn.ac.in " target="_blank">sukkala.balaji@iitgn.ac.in </a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-7337432217" value="+91-7337432217" target="_blank">+91-7337432217</a></div>
             </div>
             
             
