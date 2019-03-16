@@ -54,16 +54,14 @@
                 <div>Contact no:&nbsp;<a href="tel:%2B91-7433064254" value="+91-7433064254" target="_blank">+91-7433064254/a></div>
             </div>
             
-            
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive img-center circle" src="img/aboutus/naji.jpg" alt="">
+                <img class="img-circle img-responsive img-center circle" src="img/aboutus/utkarsh.jpg" alt="">
                 <h3>Utkarsh Balodi <br>
                     <small>Core Team</small>
                 </h3>
                 <div>Email id: <a href="mailto:utkarsh.balodi@iitgn.ac.in" target="_blank">utkarsh.balodi@iitgn.ac.in</a></div>
                 <div>Contact no:&nbsp;<a href="tel:%2B91-7506457683" value="+91-7506457683" target="_blank">+91-7506457683</a></div>
             </div>
-            
             
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive circle" src="img/aboutus/kartik_new.jpg" alt="">
@@ -73,84 +71,35 @@
                 <div>Email id: <a href="mailto:piyush.chandra@iitgn.ac.in" target="_blank">piyush.chandra@iitgn.ac.in</a></div>
                 <div>Contact no:&nbsp;<a href="tel:%2B91-9727735505" value="+91-9727735505" target="_blank">+91-9727735505</a></div>
             </div>
-
             
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/nishant.jpg" alt="">
+                <img class="img-circle img-responsive circle" src="img/aboutus/joy.jpg" alt="">
                 <h3>Avinash Joy Bara
                     <br> <small>Core Team</small>
                 </h3>
                 <div>Email id: <a href="mailto:avinash.bara@iitgn.ac.in" target="_blank">avinash.bara@iitgn.ac.in</a></div>
                 <div>Contact no:&nbsp;<a href="tel:%2B91-7543927154" value="+91-7543927154" target="_blank">+91-7543927154</a></div>
             </div>
-        
 
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/vidhi.jpg" alt="">
+                <img class="img-circle img-responsive circle" src="img/aboutus/Balaji.jpg" alt="">
                 <h3>Sukkala Balaji
                     <br> <small>Core Team</small>
                 </h3>
                 <div>Email id: <a href="mailto:sukkala.balaji@iitgn.ac.in " target="_blank">sukkala.balaji@iitgn.ac.in </a></div>
                 <div>Contact no:&nbsp;<a href="tel:%2B91-7337432217" value="+91-7337432217" target="_blank">+91-7337432217</a></div>
             </div>
-            
-            
+
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/ravi.jpg" alt="">
-                <h3>Raviteja Kotamsetti 
+                <img class="img-circle img-responsive circle" src="img/aboutus/Balaji.jpg" alt="">
+                <h3>Yash Patel
                     <br> <small>Core Team</small>
                 </h3>
-                <div>Email id: <a href="mailto:kotamsetti.ravi@iitgn.ac.in" target="_blank">kotamsetti.ravi@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9725727970" value="+919725727970" target="_blank">+91-9725727970</a></div>
-                <br>
+                <div>Email id: <a href="mailto:yash.patel@iitgn.ac.in" target="_blank">yash.patel@iitgn.ac.in</a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-9586693918" value="+91-9586693918" target="_blank">+91-9586693918</a></div>
             </div>
             
-            <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/lakshmi.jpg" alt="">
-                <h3>Lakshmi Narayan Meena 
-                    <br> <small>Core Team</small>
-                </h3>
-                <div>Email id: <a href="mailto:lakshmi.narayan@iitgn.ac.in" target="_blank">lakshmi.narayan@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9998426025" value="+919998426025" target="_blank">+91-9998426025</a></div>
-                <br>
-            </div>
-            
-            
-            <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/sushil.jpg" alt="">
-                <h3>Sushil Kumar 
-                    <br> <small>Core Team</small>
-                </h3>
-                <div>Email id: <a href="mailto:sushil.kumar@iitgn.ac.in" target="_blank">sushil.kumar@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9586545603" value="+919586545603" target="_blank">+91-9586545603</a></div>
-                <br>
-            </div>
-            
-            
-            <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/heer.jpg" alt="">
-                <h3>Heer Ambavi 
-                    <br> <small>Core Team</small>
-                </h3>
-                <div>Email id: <a href="mailto:heer.ambavi@iitgn.ac.in" target="_blank">heer.ambavi@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9408173670" value="+919408173670" target="_blank">+91-9408173670</a></div>
-                <br>
-            </div>
-            
-            
-            
-<!--           
             <div class="col l4 offset-l4 m6 offset-m3 s12 center image-holder">
-                
-                <img class="img-circle img-responsive circle" src="img/aboutus/ashim.jpg" alt="">
-                <h3>Ashim Raj Konwar
-                    <br> <small>Web Developer</small>
-                </h3>
-                <div>Info: <a href="http://ashimrajkonwar.me/" target="_blank">http://ashimrajkonwar.me/</a></div>
-            </div>
--->
-            <div class="col l4 offset-l4 m6 offset-m3 s12 center image-holder">
-                
                 <img class="img-circle img-responsive circle" src="img/aboutus/rahul.jpg" alt="">
                 <h3>Rahul Manusmare
                     <br> <small>Web Developer</small>
