@@ -30,12 +30,11 @@
                 <p><b>Quick statistics of last year’s Halla Bol</b></p>
                 <div class= "container">
                     <ul class="collection">
-                        <li class="collection-item">Total Participation: 3000+</li>
-                        <li class="collection-item">Total number of Games: 13</li>
-                        <li class="collection-item">Total matches played: 400+</li>
-                        <li class="collection-item">Total minutes played: 9,600 min (160 hr) </li>
-                        <li class="collection-item">Total teams: 450+</li>
-                        <li class="collection-item">Average number of games played by a participating student: 6-7 games</li>
+                        <li class="collection-item">Total Number of Teams = 585
+                        <li class="collection-item">Total Participation =<b> 3647 (No of Players x Size of Teams)</b></li>
+                        <li class="collection-item">Total Number of Different Players = <b>725</b></li>
+                        <li class="collection-item">Average Game Played by each Participant = <b>4.6</b></li>
+                        <li class="collection-item">Total Number of games: <b>13 games</b></li>
                     </ul>
                 </div>
             </div>

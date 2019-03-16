@@ -9,14 +9,14 @@ require_once('navigation.php');
 <div  ng-app="teams" ng-controller="teamsController" ng-init="game_map={1:'3 a Side Baddy', 2:'7 Stones', 3:'Dodgeball', 4:'Foot Volley', 5:'Futsal', 6:'Gully Cricket(Boys)', 7:'Gully Cricket(Girls)', 8:'Handball', 9:'Kho-Kho', 10:'Throwball(Girls)', 11:'Tug Of War', 12:'Ultimate Frisbee(Boys)', 13:'Ultimate Frisbee (Girls)', 14:'Carrom Wars', 15: 'Handball (Girls)', 16: 'Street Hockey'}">
     <div class="container">
     <!-- Page Heading/Breadcrumbs -->
-        
+
         <div class="row">
             <div class="col-lg-12">
             <!--
                 <h1 class="page-header">Registrations are Closed!
                     <small></small>
                 </h1>
-                
+
             -->
                 <br>
                 <nav class="custom-breadcums">
@@ -27,7 +27,7 @@ require_once('navigation.php');
                       </div>
                     </div>
                 </nav>
-            
+
                 <p>Please refer to the constraints of registration before registering.</p>
             </div>
         </div>
@@ -44,12 +44,12 @@ require_once('navigation.php');
                     <div class="alert alert-danger alert-dismissable" id="">
                        <ol>
                        <li><span>For players registered as "Other", please enter the <b>full name</b> consistent with the other registrations of that player. This data is used while scheduling the matches, failure to enter full name might result in that player having two of his/her matches scheduled simultaneously.</span></li>
-                       <li><span id="">Those who are found registering illegal teams, will be disqualified from Hallabol!</span> 
+                       <li><span id="">Those who are found registering illegal teams, will be disqualified from Hallabol!</span>
                        </li>
                        </ol>
                     </div>
                     <div class="alert alert-danger alert-dismissable hidden red-text" id="error_message">
-                       
+
                        <span id="error_msg">Unable to register, please check your input values.</span>
                     </div>
 
@@ -86,13 +86,13 @@ require_once('navigation.php');
                         <div class="alert alert-warning" role="alert" hidden>
                           <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
                           <span class="sr-only">Error:</span>
-                          Please write Full Name and Roll No for valid registrations, any error in roll no will 
+                          Please write Full Name and Roll No for valid registrations, any error in roll no will
                         </div>
                         <div class="row">
                           <h6 class="col m4 right-align" style="font-size: 18px;line-height: 28px;">Team Name</h6>
                           <div class="col m6">
                           <input id="team_name" name="team_name" style="text-transform:capitalize" type="text" placeholder="Name of your awesome team" class="form-control input-md" required="">
-                          <span class="help-block">Maximum characters:50</span>  
+                          <span class="help-block">Maximum characters:50</span>
                           </div>
                         </div>
 
@@ -155,14 +155,14 @@ require_once('navigation.php');
                           <div class="col m2">{{ team.team_name }}</div>
                           <div class="col m6">
                               <div ng-repeat="member in team.team_members.split(',')" class="chip">{{member}}</div>
-                            
+
                           </div>
                       </div>
                   </li>
 
-               
+
                 </ul>
-                    
+
             </div>
         </div>
     </div>
@@ -244,7 +244,7 @@ attachSubmit();
     playerData = data;
     $('.tms').empty();
     console.log(data);
-    
+
     $('.tms').append('<option value="select">Select</option>');
     for(p in data){
     console.log(p);
@@ -272,7 +272,7 @@ attachSubmit();
     assignOnChangeListener();
     assignSelectorValues();
   });
-  
+
 function attachSubmit(){
 console.log('Attach');
 
@@ -287,13 +287,13 @@ console.log('Attach');
 
 function checkIfArrayIsUnique(myArray) {
 
-        for (var i = 0; i < myArray.length; i++) 
+        for (var i = 0; i < myArray.length; i++)
         {
-            for (var j = 0; j < myArray.length; j++) 
+            for (var j = 0; j < myArray.length; j++)
             {
-                if (i != j) 
+                if (i != j)
                 {
-                    if (myArray[i] == myArray[j]) 
+                    if (myArray[i] == myArray[j])
                     {
                       console.log(myArray[i] );
                       console.log(myArray[j] );
@@ -304,7 +304,7 @@ function checkIfArrayIsUnique(myArray) {
         }
         return false; // means there are no duplicate values.
 }
-    
+
 
 
 
@@ -342,7 +342,7 @@ function checkIfArrayIsUnique(myArray) {
     var data = new Object;
     data.game = game;
     data.team_name = team_name;
-    
+
     data.rolls = "";
 
     data.rolls = $(".tms").map(function() {
@@ -356,27 +356,27 @@ function checkIfArrayIsUnique(myArray) {
     data.team_members=$(".tms").map(function() {
     if(this.value!='' && this.value!='select' ) return playerData[this.value]['name']+" ("+this.value+")";
     }).get().join();
-    
+
     data.team_members+=$(".tmi").map(function() {return this.value;}).get().join(",").replace(/,+/g,",").replace(/,+$/,"");
     console.log(data.team_members);
-    
-    
-    
-    
-    
+
+
+
+
+
     console.log(teamMemList );
-    
+
     var teamMemList = data.team_members.split(",");
     if(checkIfArrayIsUnique(teamMemList)){
       alert("Duplicate entry of the same member is not possible. Are you out of your mind?");
       return;
     }
-    
-        
-    
-    
-    
-    
+
+
+
+
+
+
 
     // Send the data using post
     var posting = $.post( './register_back.php', $.param(data) );
@@ -394,8 +394,8 @@ function checkIfArrayIsUnique(myArray) {
       $('#error_message').removeClass('hidden');
     });
   });
-}  
-  
+}
+
 
 });
 
