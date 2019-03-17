@@ -40,11 +40,20 @@
         <!-- /.row -->
 
         <!-- Team Members Row -->
-        <div class="row team">
+        <div class="row team center">
             <div class="col l12">
                 <h1 class="page-header">Our Team</h1>
             </div>
-            
+
+            <div class="col l4 m6 s12 center image-holder">
+                <img class="img-circle img-responsive img-center circle" src="img/aboutus/yp.JPG" alt="">
+                <h3>Yash Patel<br>
+                    <small>Sports Secretary</small>
+                </h3>
+                <div>Email id: <a href="mailto:yash.patel@iitgn.ac.in" target="_blank">yash.patel@iitgn.ac.in</a></div>
+                <div>Contact no:&nbsp;<a href="tel:%2B91-9586693918" value="+91-9586693918" target="_blank">+91-9586693918</a></div>
+            </div>
+
             <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive img-center circle" src="img/aboutus/akhil.jpg" alt="">
                 <h3>V V S Akhil<br>
@@ -64,7 +73,7 @@
             </div>
             
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/kartik_new.jpg" alt="">
+                <img class="img-circle img-responsive circle" src="img/aboutus/p.png" alt="">
                 <h3>Piyush Chandra
                     <br> <small>Core Team</small>
                 </h3>
@@ -82,24 +91,15 @@
             </div>
 
             <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/Balaji.jpg" alt="">
-                <h3>Sukkala Balaji
-                    <br> <small>Core Team</small>
+                <img class="img-circle img-responsive img-center circle" src="img/aboutus/Balaji.jpg" alt="">
+                <h3>Sukkala Balaji<br>
+                    <small>Core Team</small>
                 </h3>
-                <div>Email id: <a href="mailto:sukkala.balaji@iitgn.ac.in " target="_blank">sukkala.balaji@iitgn.ac.in </a></div>
+                <div>Email id: <a href="mailto:sukkala.balaji@iitgn.ac.in" target="_blank">sukkala.balaji@iitgn.ac.in</a></div>
                 <div>Contact no:&nbsp;<a href="tel:%2B91-7337432217" value="+91-7337432217" target="_blank">+91-7337432217</a></div>
             </div>
-
-            <div class="col l4 m6 s12 center image-holder">
-                <img class="img-circle img-responsive circle" src="img/aboutus/yp.JPG" alt="">
-                <h3>Yash Patel
-                    <br> <small>Core Team</small>
-                </h3>
-                <div>Email id: <a href="mailto:yash.patel@iitgn.ac.in" target="_blank">yash.patel@iitgn.ac.in</a></div>
-                <div>Contact no:&nbsp;<a href="tel:%2B91-9586693918" value="+91-9586693918" target="_blank">+91-9586693918</a></div>
-            </div>
             
-            <div class="col l4 offset-l4 m6 offset-m3 s12 center image-holder">
+            <div class="col l4 m6 s12 center image-holder">
                 <img class="img-circle img-responsive circle" src="img/aboutus/rahul.jpg" alt="">
                 <h3>Rahul Manusmare
                     <br> <small>Web Developer</small>
