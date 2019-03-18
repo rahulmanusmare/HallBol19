@@ -33,7 +33,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">3 a Side Baddy<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/3-a-side baddy.pdf" target="_blank">Game Rules</a></p>
+                    <p><a href="games/3-a-side-baddy19.pdf" target="_blank">Game Rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">3 a Side Baddy<i class="material-icons right">close</i></span>
@@ -59,7 +59,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Foot Volley<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Foot-volley.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Foot Volley'19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Foot Volley<i class="material-icons right">close</i></span>
@@ -72,7 +72,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Futsal<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Futsal.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/FUTSAL2019.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Futsal<i class="material-icons right">close</i></span>
@@ -85,7 +85,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Frisbee<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Ultimate Frisbee.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Ultimate Frisbee'19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Frisbee<i class="material-icons right">close</i></span>
@@ -98,7 +98,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Gully Cricket<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Gully Cricket.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Gully Cricket '19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Gully Cricket<i class="material-icons right">close</i></span>
@@ -112,7 +112,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Hand Ball<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Hand Ball.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Handball'19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Hand Ball<i class="material-icons right">close</i></span>
@@ -125,7 +125,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Kho-kho<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Kho-kho.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/KhoKho19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Kho-kho<i class="material-icons right">close</i></span>
@@ -139,7 +139,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Throwball<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Throwball.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Throwball'19 .pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Throwball<i class="material-icons right">close</i></span>
@@ -153,7 +153,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Tug-of-war<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Tug-of-war.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Tugofwarrules19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Tug-of-war<i class="material-icons right">close</i></span>
@@ -195,7 +195,7 @@ require_once('navigation.php');
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">Street Hockey<i class="material-icons right">more_vert</i></span>
-                    <p><a href="games/Street Hockey.pdf" target="_blank">Game rules</a></p>
+                    <p><a href="games/Street Hockey '19.pdf" target="_blank">Game rules</a></p>
                 </div>
                 <div class="card-reveal">
                     <span class="card-title grey-text text-darken-4">Street Hockey<i class="material-icons right">close</i></span>
