@@ -60,7 +60,7 @@ require_once('navigation.php');
                       <h6 class="col m4 right-align" style="font-size: 18px;line-height: 28px;">Select Game</h6>
                       <div class="col m6">
                         <select class="form-control browser-default" name="select_game" id="select_game">
-                          <option data-team="4" data-link="crossfit_challenge" value="17">Cross-Fit Challenge</option>
+                          <!--<option data-team="4" data-link="crossfit_challenge" value="17">Cross-Fit Challenge</option>-->
                           <option data-team="3" data-link="3_a_side_baddy" value="1">3 A Side Baddy</option>
                           <option data-team="9" data-link="7_stones" value="2">7 Stones</option>
                           <option data-team="8" data-link="dodgeball" value="3">Dodgeball</option>

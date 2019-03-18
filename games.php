@@ -182,7 +182,7 @@ require_once('navigation.php');
                 </div>
                 </a>
             </div>
-
+<!--
             <div class="col m4 card">
                 <a href="games/CrossFit_Challenge.pdf" target="_blank">
                 <div class="card-image waves-effect waves-block waves-light">
@@ -195,6 +195,7 @@ require_once('navigation.php');
                 </div>
             </div>
             </a>
+            -->
         </div>
         <!-- /.row -->
         <hr>

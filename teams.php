@@ -2,7 +2,7 @@
 session_start();
 require_once('navigation.php');
 ?>
-<div class="container" ng-app="teams" ng-controller="teamsController" ng-init="game_map={1:'3 a Side Baddy', 2:'7 Stones', 3:'Dodgeball', 4:'Foot Volley', 5:'Futsal', 6:'Gully Cricket(Boys)', 7:'Gully Cricket(Girls)', 8:'Handball', 9:'Kho-Kho', 10:'Throwball(Girls)', 11:'Tug Of War', 12:'Ultimate Frisbee(Boys)', 13:'Ultimate Frisbee (Girls)', 14:'Carrom Wars', 15: 'Handball (Girls)', 16: 'Street Hockey', 17: 'CrossFit Challenge'}">
+<div class="container" ng-app="teams" ng-controller="teamsController" ng-init="game_map={1:'3 a Side Baddy', 2:'7 Stones', 3:'Dodgeball', 4:'Foot Volley', 5:'Futsal', 6:'Gully Cricket(Boys)', 7:'Gully Cricket(Girls)', 8:'Handball', 9:'Kho-Kho', 10:'Throwball(Girls)', 11:'Tug Of War', 12:'Ultimate Frisbee(Boys)', 13:'Ultimate Frisbee (Girls)', 14:'Carrom Wars', 15: 'Handball (Girls)', 16: 'Street Hockey'}">
     <!-- Page Heading/Breadcrumbs -->
     <div class="row">
         <div class="col-lg-12">
@@ -34,7 +34,6 @@ require_once('navigation.php');
                 
             <select class="form-control" name="select_game" id="select_game" ng-model="teamsForm.game" ng-change="teamsForm.loadTeams(this)" material-select>
                 <option value="" disabled selected>Choose a game</option>
-                <option data-team="4" data-link="crossfit_challenge" value="17">CrossFit Challenge</option>
                 <option data-team="3" data-link="3_a_side_baddy" value="1" >3 A Side Baddy</option>
                 <option data-team="9" data-link="7_stones" value="2">7 Stones</option>
                 <option data-team="8" data-link="dodgeball" value="3">Dodgeball</option>
