@@ -182,20 +182,19 @@ require_once('navigation.php');
                 </div>
                 </a>
             </div>
-<!--
+
             <div class="col m4 card">
-                <a href="games/CrossFit_Challenge.pdf" target="_blank">
+                <a href="" target="_blank">
                 <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator"  src="./img/cross.jpg" alt="">
                 </div>
                 <div class="card-content">
                     <span class="card-title activator grey-text text-darken-4">CrossFit Challenege</span>
-                    <span class="red-text">*New This Year</span>
-                    <p>Game rules</p>
+                    <span class="red-text">*Comming Soon</span>
+                    <!-- <p>Game rules</p> -->
                 </div>
             </div>
             </a>
-            -->
         </div>
         <!-- /.row -->
         <hr>

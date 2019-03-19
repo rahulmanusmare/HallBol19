@@ -8,7 +8,7 @@ $to  = $email;
 $hashcode = md5("hallabol18".$email."saltedItem");
 
 // subject
-$subject = 'Hallabol\'18 Signup| Verification';
+$subject = 'Hallabol\'19 Signup| Verification';
 
 // message
 $message = "
@@ -17,7 +17,7 @@ $message = "
   <title>Hallabol Email Confirmation</title>
 </head>
 <body>
-  <h2>Hallabol'18</h2>
+  <h2>Hallabol'19</h2>
   <p>Thanks for signing up!</p>
 <p>Your account has been created, please click <a href='http://students.iitgn.ac.in/hallabol/confirm.php?email=$email&code=$hashcode&rollno=$rollno&fullname=$fullname'>here</a> to activate your account, or enter this code: <b>$hashcode</b> at the confirmation page.
   </p>

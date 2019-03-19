@@ -38,7 +38,7 @@ require_once('navigation.php');
 
                     <!-- Form Name -->
                     <h4 style="font-size:26px;">Team Registration Form</h4>
-                    <div class="alert alert-success alert-dismissable hidden red-text" id="success_message">
+                    <div class="alert alert-success alert-dismissable hidden green-text" id="success_message">
                        Team Successfully registered. Please refresh the page!.
                     </div>
                     <div class="alert alert-danger alert-dismissable" id="">
