@@ -85,7 +85,11 @@ require_once('navigation.php');
 					        </div>
 					    
 					      </div>
+					      
 					      <div class="row">
+					          <a href="./forgotpassword.php" style="font-size:11pt;">
+                                          Forgot Password?
+                        </a>
 					      	<button class="btn waves-effect waves-light" type="submit" name="action">Login</button>
 					      </div>
 					      <div class="row">

@@ -107,7 +107,7 @@ require_once('navigation.php');
 
             <div class="col m8 s12">
                 <!-- <iframe src="https://player.vimeo.com/video/122317190" width="750" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
-                <iframe height="400" style="width:100%"  src="https://youtu.be/b1nUmHqctx0" frameborder="0" allowfullscreen></iframe>
+                <iframe height="400" style="width:100%"  src="https://www.youtube.com/embed/b1nUmHqctx0" frameborder="0" allowfullscreen></iframe>
             </div>
             <div class="col m4 s12">
                 <div style="width:100%" class="fb-like-box" data-href="https://www.facebook.com/iitgn.hallabol" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
