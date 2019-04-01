@@ -68,6 +68,7 @@ if(isset($_SESSION['email'])){
 		        <li><a href="register.php">Register</a></li>
 		        <li><a href="./games.php">Games</a></li>
 		        <li><a href="teams.php">Teams</a></li>
+                <li><a href="live.php" class="red-text">*Live Finals</a></li>
 		      </ul>
 		      
 <?php if($logedin) { ?>
@@ -110,6 +111,7 @@ if(isset($_SESSION['email'])){
         <li><a href="register.php">Register</a></li>
         <li><a href="./games.php">Games</a></li>
         <li><a href="teams.php">Teams</a></li>
+        <li><a href="live.php" class="red-text">*Live Finals</a></li>
         <li><div class="divider"></div></li>
         <li><a href="./login.php">Login</a></li>
         <li><a href="./signup.php">Register</a></li>
